@@ -11,52 +11,63 @@ body {
 	position: relative;
 }
 
-/* modify the assets below */
-.triangle {
-	width: 0;
-	height: 0;
-	border-left: 100px solid transparent;
-	border-right: 100px solid transparent;
-	border-bottom: 200px solid rgb(184, 127, 238);
-	position: absolute;
-	top: 160px;
-	left: 100px;
-	transform: scale(0.5);
-}
 
-.square {
+
+#square {
 	width: 200px;
 	height: 200px;
-	background: rgb(231, 120, 120);
+	background: rgb(253, 215, 215);
 	top: 160px;
 	left: 350px;
 	position: absolute;
 }
-
-.circle {
+#square3 {
+	background: rgb(0, 113, 128);
+	width: 100px;
+	height: 30px;	
+}
+#circle {
 	width: 200px;
 	height: 200px;
 	background: rgb(147, 147, 248);
 	border-radius: 200px;
-	top: 160px;
+	top: 140px;
 	left: 600px;
 	position: absolute;
 }
 
+#hexagon {
+	width: 100px;
+	height: 100px;
+	background: rgb(33, 33, 196);
+}
 #square2 {
 	background: green;
 	width: 50px;
 	height: 300px;	
 }
 
-.secondtriangle {
-	width: 2;
-	height: 3;
-	border-left: 100px solid transparent;
-	border-right: 100px solid transparent;
-	border-bottom: 200px solid rgb(77, 17, 134);
-	position: absolute;
-	top: 160px;
-	left: 100px;
-	transform: scale(0.5);
+#ball {
+	width: 100px;
+	height: 300px; 
+	border-radius: 100px;
+	top: 100px;
+	right: 200px;
+	background:rgb(130, 15, 15)
 }
+#trapezoid {
+	border-bottom: 20px solid transparent;
+	border-top: 50px solid transparent;
+	border-left: 200px solid;
+	background: #66b2ff;
+	height: 80pc;
+}
+#circle2 {
+	width: 300px;
+	height: 200px;
+	background: rgb(254, 103, 217);
+	top: 140px;
+	right: 400px;
+	
+}
+
