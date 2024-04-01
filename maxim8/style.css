@@ -1,7 +1,7 @@
 body {
     width: 100vw;
-    background-color: black;
-    color: blue;
+    background-color: rgb(255, 247, 0);
+    color: rgb(0, 174, 255);
     font-size: 60px;
 }
 
