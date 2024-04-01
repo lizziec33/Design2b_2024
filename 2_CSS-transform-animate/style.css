@@ -1,0 +1,45 @@
+body {
+    width: 100vw;
+    background-color: black;
+    color: blue;
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+
+div {
+    width: 60%;
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#circle{
+	width: 200px;
+	height: 200px;
+	border-radius: 500px;
+	top: 140px;
+	left: 600px;
+    transform: 80px;
+    animation: test 2s linear alternate infinite;
+	
+}
+p {
+    animation: test 2s linear alternate infinite;
+}
+
+/* Step 1: Mess around with this animation setup. See what happens */
+@keyframes test {
+    0% {
+        background-color: crimson;
+        color: rgb(255, 0, 76);
+        transform: skew(-15deg, 15deg) rotate(45deg) scale(2) scale(1);
+    }
+    50% {
+        color: pink;
+    }
+
+    100% {
+        color: rgb(255, 0, 238);
+        transform: skew(-15deg, 15deg) rotate(45deg) scale(2) scale(4) translateY(100);
+    }
+}
