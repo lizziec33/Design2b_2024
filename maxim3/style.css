@@ -13,7 +13,8 @@ div {
     text-align: center;
 }
 
-p {
+span {
+    display: inline-block;
     animation: test 2s linear alternate infinite;
 }
 
