@@ -7,9 +7,32 @@
         <title>Maxims</title>
     </head>
     <body>
-        <h1>Let's discuss the elephant in the room</h1>
+        <h1>Let's discuss the <span class="animated-word">elephant</span> in the room</h1>
         <ul>
             <li><a href="https://lizziec33.github.io/Design2b_2024/maxim6/index.html">Next</a></li> 
             <link rel="stylesheet" href="style.css">
       
-        </ul>
+        </ul> 
+        <style>
+            @keyframes pulse {
+                0% {
+                    transform: scale(1);
+                }
+                50% {
+                    transform: scale(1.5); /* Increase the size */
+                }
+                100% {
+                    transform: scale(1);
+                }
+            }
+    
+            .animated-word {
+                display: inline-block;
+                animation: pulse 4s infinite ease-in-out; /* Apply the animation */
+            }
+        </style>
+    </head>
+    <body>
+    
+ 
+    
