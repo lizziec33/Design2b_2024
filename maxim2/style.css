@@ -29,3 +29,12 @@ p {
         transform: skew(-15deg, 15deg) rotate(45deg) scale(2) scale(4) translateY(100);
     }
 }
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  
+  .spin {
+    display: inline-block; /* Allows the transform to work correctly */
+    animation: spin 2s linear infinite; /* Adjust time as needed */
+  }
