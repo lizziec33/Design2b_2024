@@ -1,0 +1,14 @@
+body {
+    width: 100vw;
+    background-color: rgb(249, 155, 186);
+    color: rgb(172, 57, 87);
+    font-size: 20px;
+}
+
+div {
+    width: 60%;
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}

@@ -29,7 +29,7 @@ span {
     }
 
     100% {
-        color: red;
+        color: rgb(255, 255, 255);
         transform: skew(-15deg, 15deg) rotate(45deg) scale(2) scale(4) translateY(100);
     }
 }
