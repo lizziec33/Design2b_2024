@@ -14,9 +14,8 @@ div {
 }
 
 span {
-    .wrap:hover & {
         transform: scale(2);
-      }
+    
    
 }
 
