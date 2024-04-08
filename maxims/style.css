@@ -13,8 +13,11 @@ div {
     text-align: center;
 }
 
-p {
-    animation: test 2s linear alternate infinite;
+span {
+    .wrap:hover & {
+        transform: scale(2);
+      }
+   
 }
 
 /* Step 1: Mess around with this animation setup. See what happens */
