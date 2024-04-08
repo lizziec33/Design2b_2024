@@ -14,8 +14,10 @@ div {
 }
 
 span {
-        transform: scale(2);
-    
+        &:hover {
+            transform: scale(2);
+          }
+        
    
 }
 
