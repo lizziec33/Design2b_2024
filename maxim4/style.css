@@ -12,7 +12,9 @@ div {
     margin-right: auto;
     text-align: center;
 }
-
+li {
+    color: rgb(70, 51, 0);
+}
 p {
     animation: test 2s linear alternate infinite;
 }
@@ -29,3 +31,24 @@ p {
         transform: skew(-15deg, 15deg) rotate(45deg) scale(2) scale(4) translateY(100);
     }
 }
+.falling-text {
+    display: inline-block;
+    /* Initial state of the animation */
+    transform: translateY(-100%); /* Start above the visible area */
+    opacity: 0; /* Start invisible */
+    animation: fall 3s ease-out forwards; /* Adjust timing to your preference */
+  }
+  
+  @keyframes fall {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    60% {
+      opacity: 1; /* Quickly bring the text to full opacity */
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
