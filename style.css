@@ -5,7 +5,9 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+        font-family: "Merriweather", serif;
+        font-weight: 400;
+        font-style: normal;
     background-color: rgb(49, 31, 9);
 }
 
@@ -17,8 +19,8 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
-    border-bottom: 1px solid #000;
-    background-color: bisque;
+    border-bottom: 1px solid #100a00;
+    background-color: rgb(49, 31, 9);
     z-index: 10000;
 }
 
@@ -38,12 +40,12 @@ img {
 .nav-links a {
     margin-left: 30px;
     text-decoration: none;
-    color: black;
+    color: rgb(143, 110, 67);
 }
 
 .nav-links a:hover {
     text-decoration: underline;
-    color: darkgreen;
+    color: rgb(143, 110, 67);
 }
 
 .landing {
@@ -76,7 +78,7 @@ h1 {
 
 .two-column {
     display: flex;
-    border-top: 1px solid #000;
+    border-top: 1px solid #100a00;
 }
 
 .image-container {
@@ -98,7 +100,7 @@ h2 a {
 }
 
 h2 a:hover {
-    color: darkgreen;
+    color: rgb(207, 167, 115);
 }
 
 p {
