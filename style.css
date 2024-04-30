@@ -7,7 +7,7 @@
 body {
         font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         font-weight: 400;
-    background-color: rgb(161, 203, 237);
+    background-color: rgb(243, 190, 178);
 }
 
 nav {
@@ -18,8 +18,8 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
-    border-bottom: 1px solid #1f467c;
-    background-color: rgb(161, 203, 237);
+    border-bottom: 1px solid #b65d5d;
+    background-color: rgb(243, 190, 178);
     z-index: 10000;
 }
 
@@ -39,12 +39,13 @@ img {
 .nav-links a {
     margin-left: 30px;
     text-decoration: none;
-    color: rgb(44, 143, 224);
+    color:solid rgb(213, 106, 113);
+    
 }
 
 .nav-links a:hover {
     text-decoration: underline;
-    color: rgb(44, 143, 224);
+    color: rgb(106, 32, 43);
 }
 
 .landing {
@@ -59,6 +60,7 @@ img {
 h1 {
     font-weight: 400;
     font-size: 128px;
+    color: #b65d5d;
 }
 
 .hand-container {
@@ -77,7 +79,7 @@ h1 {
 
 .two-column {
     display: flex;
-    border-top: 1px solid #100a00;
+    border-top: 1px solid #b65d5d;
 }
 
 .image-container {
@@ -95,11 +97,11 @@ h2 {
 }
 
 h2 a {
-    color: rgb(17, 81, 133);
+    color: #b65d5d;
 }
 
 h2 a:hover {
-    color: rgb(103, 144, 178);
+    color: rgb(106, 32, 43);
 }
 
 p {
