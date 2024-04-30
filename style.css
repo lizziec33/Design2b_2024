@@ -1,14 +1,93 @@
-body {
-    width: 100vw;
-    background-color: rgb(249, 155, 186);
-    color: rgb(172, 57, 87);
-    font-size: 20px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: tan;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid black;
+    background-color:tan; 
+}
+.logo {
+    width: 40px;
+}
+img{
+    width:100%;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+.nav-links a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
 
-div {
-    width: 60%;
-    margin-top: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+
+}
+.nav-links a:hover {
+    text-decoration: underline;
+    color: indianred;
+}
+.landing {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+h1 {
+    font-weight: 400;
+    font-size: 128px;
+}
+.hand-container {
+    width: 80px;
+
+}
+.hand-container {
+    right:20px;
+}
+.two-column {
+    display: flex;
+}
+.image-container {
+    width:50%;
+}
+.text-container {
+    flex: 1;
+    padding: 20px;
+}
+h2 {
+    margin-bottom: 36px;
+    font-size: 36px;
+}
+h2 a {
+    color: black;
+
+}
+h2 a:hover {
+    color: indianred;
+}
+p {
+font-size: 20px;
+line-height: 1.2;
+}
+.two-column.reverse {
+    flex-direction:row-reverse;
+}
+.image-container img {
+    width:100%;
+    height: 100%;
+    object-fit: cover;
 }
