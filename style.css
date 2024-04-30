@@ -60,7 +60,7 @@ img {
 h1 {
     font-weight: 400;
     font-size: 128px;
-    color: #b65d5d;
+    color: rgb(213, 106, 113);
 }
 
 .hand-container {
@@ -79,7 +79,7 @@ h1 {
 
 .two-column {
     display: flex;
-    border-top: 1px solid #b65d5d;
+    border-top: 1px solid rgb(213, 106, 113);
 }
 
 .image-container {
@@ -97,7 +97,7 @@ h2 {
 }
 
 h2 a {
-    color: #b65d5d;
+    color: rgb(213, 106, 113)
 }
 
 h2 a:hover {
