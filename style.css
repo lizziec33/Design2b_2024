@@ -25,6 +25,8 @@ nav {
 
 .logo {
     width: 40px;
+    color: rgb(213, 106, 113);
+    text-decoration: none;
 }
 
 img {
@@ -34,6 +36,8 @@ img {
 .nav-links {
     display: flex;
     align-items: center;
+    color: rgb(213, 106, 113);
+    text-decoration: none;
 }
 
 .nav-links a {
@@ -80,6 +84,8 @@ h1 {
 .two-column {
     display: flex;
     border-top: 1px solid rgb(213, 106, 113);
+    
+
 }
 
 .image-container {
@@ -94,6 +100,7 @@ h1 {
 h2 {
     font-size: 36px;
     margin-bottom: 36px;
+    text-decoration: none;
 }
 
 h2 a {
@@ -107,6 +114,7 @@ h2 a:hover {
 p {
     font-size: 20px;
     line-height: 1.2;
+    color:rgb(213, 106, 113)
 }
 
 .two-column.reverse {
@@ -118,3 +126,22 @@ p {
     height: 100%;
     object-fit: cover;
 }
+
+h3{
+    margin-bottom: 10px;
+}
+.massage{
+width:500px ;
+height: 900px;
+margin-top: 200px;
+margin-left: 80px;
+
+}
+
+.message{
+    width:500px ;
+    height: 900px;
+    margin-top: 400px;
+    margin-left: 80px;
+    }
+    
