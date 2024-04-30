@@ -142,7 +142,15 @@ margin-left: 80px;
 .message{
     width:500px ;
     height: 900px;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: 80px;
     }
-    
+.my-work{
+    text-align: center;
+    margin-top: 90px;
+    font-size: 90px;
+}
+.portfolio{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
