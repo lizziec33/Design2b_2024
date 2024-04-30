@@ -5,10 +5,10 @@
 }
 
 body {
-        font-family: "Merriweather", serif;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-weight: 400;
         font-style: normal;
-    background-color: rgb(49, 31, 9);
+    background-color: rgb(229, 187, 135);
 }
 
 nav {
@@ -100,7 +100,7 @@ h2 a {
 }
 
 h2 a:hover {
-    color: rgb(207, 167, 115);
+    color: rgb(49, 31, 9);
 }
 
 p {
