@@ -251,3 +251,83 @@ a:link{
     text-decoration: none;
     color:rgb(184, 76, 84)
 }
+.newpage{
+    margin-top: 100px;
+    color: rgb(162, 56, 63);
+    font-size: 40px;
+    margin-left: 10px;
+   
+    
+}
+.content2{
+    margin-left: 10px;
+}
+.generative{
+    font-size: 20px;
+    margin-top: 60px;
+    margin-bottom: auto;
+    margin-left: 0px;
+}
+.portrait{
+    font-size: 20px;
+    color: rgb(213, 106, 113);
+    margin-top: 100px;
+    margin-right: 300px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+   
+    
+   
+}
+.maxim{
+    font-size: 20px;
+    color: rgb(213, 106, 113);
+    margin-right: 500px;
+    margin-top:auto;
+    margin-left: 20px;
+
+}
+.clock{
+    font-size: 20px;
+    color: rgb(213, 106, 113);
+    margin-right: 500px;
+    margin-left: 20px;
+}
+.draw{
+    font-size: 20px;
+    color: rgb(213, 106, 113);
+    margin-right: 300px;
+    margin-left: 20px;
+   
+}
+.pb{
+    width:700px;
+    height: 800px;
+}
+.button{
+    width: 200px;
+    height:300px;
+    margin-bottom: 0px;
+}
+.greenclock{
+    width:600px;
+    height:700px;
+}
+.drawingapp{
+    width:200px;
+    height:300px;
+}
+.drawingapp2{
+    margin-top: 40px;
+    width:300px;
+    height:400px;
+}
+.drawingapp3{
+    width:200px;
+    height:300px;
+    margin-right: 200px;
+}
+.drawingapp4{
+    width:300px;
+    height:400px;
+}
