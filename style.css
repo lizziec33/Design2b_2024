@@ -29,7 +29,10 @@ nav {
     color: rgb(213, 106, 113);
     text-decoration: none;
 }
-
+.logo a:hover {
+    text-decoration: underline;
+    color: rgb(162, 56, 63)
+}
 img {
     width: 100%;
 }
@@ -268,16 +271,21 @@ a:link{
     margin-bottom: auto;
     margin-left: 0px;
 }
+.generative a:hover{
+    text-decoration: underline;
+    color: rgb(162, 56, 63);
+}
 .portrait{
     font-size: 20px;
-    color: rgb(213, 106, 113);
+    color: rgb(213, 106, 113)
     margin-top: 100px;
     margin-right: 300px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     margin-left: 20px;
-   
-    
-   
+}
+.portrait a:hover {
+    text-decoration: underline;
+    color: rgb(162, 56, 63)
 }
 .maxim{
     font-size: 20px;
@@ -285,7 +293,10 @@ a:link{
     margin-right: 500px;
     margin-top:auto;
     margin-left: 20px;
-
+}
+.maxim a:hover{
+    text-decoration: underline;
+    color: rgb(162, 56, 63);
 }
 .clock{
     font-size: 20px;
@@ -293,12 +304,20 @@ a:link{
     margin-right: 500px;
     margin-left: 20px;
 }
+.clock a:hover{
+    text-decoration: underline;
+    color: rgb(162, 56, 63);
+}
 .draw{
     font-size: 20px;
     color: rgb(213, 106, 113);
     margin-right: 300px;
     margin-left: 20px;
    
+}
+.draw a:hover{
+    text-decoration: underline;
+    color: rgb(162, 56, 63);
 }
 .pb{
     width:700px;
@@ -330,4 +349,7 @@ a:link{
 .drawingapp4{
     width:300px;
     height:400px;
+}
+a:visited{
+    color: rgb(213, 106, 113);
 }
